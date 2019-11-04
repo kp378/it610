@@ -1,0 +1,200 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+background-color: #FAFAD2;
+padding: 15px;
+}
+body
+{
+    font-family: monospace;
+    font-size: 100%;
+}
+input[type="checkbox"] {
+    background: none;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+/*
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+*/
+/*
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+*/
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+    font: 1.125em;    
+}
+h2
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 48px;
+    text-align: center;
+    font: 1.125em;
+}
+h3
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 275px;
+    font: 1.125em;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(recallback.jpg);
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+    
+        
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+}
+
+
+#headline {
+  padding: 0.8em;
+  color: white;
+  font-family: Roboto, sans-serif;
+  background-image: url(backgroundimage.jpg);
+  background-size: cover;
+}
+
+/*
+@media screen and (min-width: 600px) {
+
+          .container {
+            margin: auto;
+            max-width: 800px;
+          }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
